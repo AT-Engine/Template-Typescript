@@ -7,7 +7,7 @@ function NavBar() {
         <>
             <nav className="navbar navbar-dark"
                 style={{
-                    backgroundColor: '#005280'
+                    backgroundColor: '#006098'
                 }}>
                 <div className="container-fluid">
                     <a className="navbar-brand text-center" href="#">atem.net</a>
