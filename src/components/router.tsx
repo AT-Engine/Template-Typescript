@@ -11,9 +11,14 @@ const router = createBrowserRouter([
       element: <NavBar />,
       children: [
         {
-          path: 'App',
+          path: '/', //we use / as path when we want the current element to render on our main path www.yoursite.com, for example
           element: <App />  
         }
+        // when creating views, the path indicates the address that will be needed after www.yoursite.com/ in order to acces that view
+        // {
+        //   path: 'ApiExample',
+        //   element: <ApiExample />  
+        // }
       ]
     }
   ])
