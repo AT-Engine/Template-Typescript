@@ -16,8 +16,8 @@ const router = createBrowserRouter([
         }
         // when creating views, the path indicates the address that will be needed after www.yoursite.com/ in order to acces that view
         // {
-        //   path: 'App',
-        //   element: <App />  
+        //   path: 'ApiExample',
+        //   element: <ApiExample />  
         // }
       ]
     }
