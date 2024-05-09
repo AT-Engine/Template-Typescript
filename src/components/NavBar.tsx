@@ -10,10 +10,14 @@ function NavBar() {
                     backgroundColor: '#006098'
                 }}>
                 <div className="container-fluid">
-                    <a className="navbar-brand text-center" href="#">atem.net</a>
+                    <a className="navbar-brand text-center" href="http://atem.net/home/">atem.net</a>
+                    <h5 style={{
+                        color: 'white'
+                    }}>Module Name</h5>
                     <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
+                    {/* You need to modify this section if your module has many views. If not, comment it */}
                     <div className="offcanvas offcanvas-end text-bg-dark" tabIndex={value} id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
                         <div className="offcanvas-header"
                             style={{
