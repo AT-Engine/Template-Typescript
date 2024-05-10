@@ -1,19 +1,14 @@
 import { Outlet } from "react-router-dom";
-
+import '../styles/NavBar.css';
 
 function NavBar() {
     const value = -1;
     return (
         <>
-            <nav className="navbar navbar-dark"
-                style={{
-                    backgroundColor: '#006098'
-                }}>
+            <nav className="navbar navbar-dark">
                 <div className="container-fluid">
                     <a className="navbar-brand text-center" href="http://atem.net/home/">atem.net</a>
-                    <h5 style={{
-                        color: 'white'
-                    }}>Module Name</h5>
+                    <h5>Module Name</h5>
                     <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>

@@ -1,0 +1,9 @@
+.navbar {
+    background-color: #006098;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar h5 {
+    color: white;
+}
